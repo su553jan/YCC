@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Choice Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button>Search</button>
+        </div>
+        <!-- Removed the account section -->
+    </header>
+
+    <main>
+        <section class="categories">
+            <h2>Categories</h2>
+            <button class="category-btn" onclick="toggleDropdown()">Category</button>
+            <div class="dropdown-content" id="dropdown">
+                <a href="#">New Arrival</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Baby</a>
+            </div>
+        </section>
+        
+        <section class="product-grid">
+            <!-- Product grid -->
+            <div class="product">
+                <img src="products-and-services (1).png" alt="Product 1">
+                <p>500¥</p>
+            </div>
+            <div class="product">
+                <img src="products-and-services (1).png" alt="Product 1">
+                <p>500¥</p>
+            </div>
+            <div class="product">
+                <img src="products-and-services (1).png" alt="Product 1">
+                <p>500¥</p>
+            </div>
+            <div class="product">
+                <img src="products-and-services (1).png" alt="Product 1">
+                <p>500¥</p>
+            </div>
+            <!-- Repeat this structure for each product -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p>Email: example@example.com</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Address: 123 Main Street, City, Country</p>
+        </div>
+        <div class="policies">
+            <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">Shipping & Returns</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Line</a>
+        </div>
+    </footer>
+</body>
+</html>
